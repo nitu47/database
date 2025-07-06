@@ -9,20 +9,23 @@ class LoginAPIView(APIView):
     def post(self,request):
         username = request.data.get('username')
         password = request.data.get('password')
-        raise Exception(username)
+        print(username)
         if username is None or password is None:
             raise ValidationError({
                 "details":"Username and password are required."
             })
+            
         user = authenticate(username = username, password = password)
         if user:
-            token,_ = Token.objects.get_or_create(user = user) 
+            token,_ = Token.objects.get_or_create(user = user)
             return Response(
                 {
                     "token":token.key,
                     "username":username
                     }
-                )  
+                
+                
+                )
         
         
         

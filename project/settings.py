@@ -44,6 +44,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     "debug_toolbar",
+    'django_filters',
+    'drf_spectacular',
+    
     
     
     
@@ -97,7 +100,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'rms_eve',
+        'NAME': 'baisakh',
         'USER': 'postgres',
         'PASSWORD': '2345',
         'HOST': 'localhost',
@@ -153,13 +156,21 @@ INTERNAL_IPS = [
 ]
 
 REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
     #'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 5,
+    
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
         
     ]
 }
 
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'RMS API',
+    'DESCRIPTION': 'Restaurant Management System',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+    # OTHER SETTINGS
+}
 
 
