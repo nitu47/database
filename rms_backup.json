@@ -1,0 +1,272 @@
+[
+    {
+        "model": "rms.category",
+        "pk": 1,
+        "fields": {
+            "name": "Fitness"
+        }
+    },
+    {
+        "model": "rms.category",
+        "pk": 2,
+        "fields": {
+            "name": "Food - Vegetables"
+        }
+    },
+    {
+        "model": "rms.category",
+        "pk": 3,
+        "fields": {
+            "name": "Food - Prepared Meals"
+        }
+    },
+    {
+        "model": "rms.category",
+        "pk": 4,
+        "fields": {
+            "name": "Art Supplies"
+        }
+    },
+    {
+        "model": "rms.category",
+        "pk": 5,
+        "fields": {
+            "name": "Kitchen"
+        }
+    },
+    {
+        "model": "rms.category",
+        "pk": 6,
+        "fields": {
+            "name": "Food - Seafood"
+        }
+    },
+    {
+        "model": "rms.category",
+        "pk": 7,
+        "fields": {
+            "name": "Clothing - Accessories"
+        }
+    },
+    {
+        "model": "rms.category",
+        "pk": 8,
+        "fields": {
+            "name": "Food - Soups"
+        }
+    },
+    {
+        "model": "rms.category",
+        "pk": 9,
+        "fields": {
+            "name": "Clothing - Tops"
+        }
+    },
+    {
+        "model": "rms.category",
+        "pk": 10,
+        "fields": {
+            "name": "Kitchen"
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 1,
+        "fields": {
+            "name": "Pet Safety Harness",
+            "description": "Comfortable harness designed to keep pets safe in the car.",
+            "price": 414.0,
+            "category": 2
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 2,
+        "fields": {
+            "name": "Portable Pet Water Bottle",
+            "description": "Travel-friendly water bottle for pets on the go.",
+            "price": 151.0,
+            "category": 7
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 3,
+        "fields": {
+            "name": "Silicone Baking Mat Set",
+            "description": "Non-stick and reusable mats for easy baking.",
+            "price": 441.0,
+            "category": 8
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 4,
+        "fields": {
+            "name": "Pet Water Fountain",
+            "description": "Automatic water fountain for pets with filtration.",
+            "price": 311.0,
+            "category": 3
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 5,
+        "fields": {
+            "name": "Teriyaki Beef Jerky",
+            "description": "Savory and chewy beef jerky with teriyaki flavor.",
+            "price": 270.0,
+            "category": 10
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 6,
+        "fields": {
+            "name": "Stainless Steel Cutlery Set",
+            "description": "High-quality cutlery set for daily use or special occasions.",
+            "price": 463.0,
+            "category": 5
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 7,
+        "fields": {
+            "name": "Oatmeal Raisin Cookies",
+            "description": "Delicious cookies packed with oats and raisins.",
+            "price": 189.0,
+            "category": 10
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 8,
+        "fields": {
+            "name": "Quinoa Salad",
+            "description": "A nutritious quinoa salad with veggies and dressing, ready-to-eat.",
+            "price": 75.0,
+            "category": 7
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 9,
+        "fields": {
+            "name": "Screen Cleaning Kit",
+            "description": "Safe cleaning solution and tools for electronics screens.",
+            "price": 292.0,
+            "category": 6
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 10,
+        "fields": {
+            "name": "Fitness Balance Ball",
+            "description": "Stability ball for Pilates and yoga workouts.",
+            "price": 480.0,
+            "category": 8
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 11,
+        "fields": {
+            "name": "Cold Brew Coffee Maker",
+            "description": "Brews coffee with a smooth flavor without bitterness.",
+            "price": 311.0,
+            "category": 4
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 12,
+        "fields": {
+            "name": "Instant Pot",
+            "description": "7-in-1 multi-cooker for versatile cooking.",
+            "price": 220.0,
+            "category": 10
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 13,
+        "fields": {
+            "name": "Chicken Breasts",
+            "description": "Juicy and tender boneless chicken breasts.",
+            "price": 376.0,
+            "category": 9
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 14,
+        "fields": {
+            "name": "Peach Preserves",
+            "description": "Sweet and fruity peach preserves, perfect for spreading on toast.",
+            "price": 158.0,
+            "category": 2
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 15,
+        "fields": {
+            "name": "Roasted Red Pepper Hummus",
+            "description": "A creamy and flavorful hummus made with roasted red peppers.",
+            "price": 494.0,
+            "category": 7
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 16,
+        "fields": {
+            "name": "Indestructible Dog Toy",
+            "description": "Durable toy designed for heavy chewers.",
+            "price": 467.0,
+            "category": 8
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 17,
+        "fields": {
+            "name": "Black Bean Spaghetti",
+            "description": "High-protein pasta made from black beans, gluten-free.",
+            "price": 273.0,
+            "category": 8
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 18,
+        "fields": {
+            "name": "Chilli Lime Corn on the Cob",
+            "description": "Corn on the cob seasoned with chili and lime for a spicy kick.",
+            "price": 351.0,
+            "category": 5
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 19,
+        "fields": {
+            "name": "Glass Water Bottle",
+            "description": "Borosilicate glass water bottle with silicone sleeve.",
+            "price": 408.0,
+            "category": 6
+        }
+    },
+    {
+        "model": "rms.food",
+        "pk": 20,
+        "fields": {
+            "name": "LED Flashlight with Rechargeable Batteries",
+            "description": "Bright flashlight with rechargeable batteries included.",
+            "price": 198.0,
+            "category": 6
+        }
+    }
+]

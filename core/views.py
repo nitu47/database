@@ -22,11 +22,10 @@ class LoginAPIView(APIView):
                 {
                     "token":token.key,
                     "username":username
-                    }
-                
-                
+                    }                
                 )
         
         
         
+
 
